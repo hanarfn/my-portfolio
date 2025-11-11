@@ -9,6 +9,7 @@ export const AboutSection = () => {
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    {/* Left Section */}
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
                             Passionate Web Developer
@@ -37,9 +38,10 @@ export const AboutSection = () => {
                             </a>
                         </div>
                     </div>
-                    
+
+                    {/* Right Section */}
                     <div className="grid grid-cols-1 gap-6">
-                        <div className="gradient-border p-6 card-hover">
+                        <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md hover:bg-white/10 transition shadow-sm hover:shadow-[0_0_25px_rgba(120,120,255,0.25)]">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Code className="h-6 w-6 text-primary" />
@@ -53,7 +55,7 @@ export const AboutSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="gradient-border p-6 card-hover">
+                        <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md hover:bg-white/10 transition shadow-sm hover:shadow-[0_0_25px_rgba(120,120,255,0.25)]">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <User className="h-6 w-6 text-primary" />
@@ -66,7 +68,7 @@ export const AboutSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="gradient-border p-6 card-hover">
+                        <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md hover:bg-white/10 transition shadow-sm hover:shadow-[0_0_25px_rgba(120,120,255,0.25)]">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Briefcase className="h-6 w-6 text-primary" />
