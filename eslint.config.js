@@ -22,6 +22,12 @@ export default defineConfig([
       },
     },
 
+    settings: {
+      react: {
+        version: "detect", // ✅ SOLUSI GARIS KUNING
+      },
+    },
+
     plugins: {
       react: reactPlugin,
       prettier: prettierPlugin,
@@ -37,12 +43,11 @@ export default defineConfig([
       // Prettier formatting
       "prettier/prettier": "warn",
 
-      // ✅ Auto-sort imports
+      // Auto-sort imports
       "simple-import-sort/imports": "warn",
       "simple-import-sort/exports": "warn",
 
-      // Optional (saran best-practice)
-      "import/order": "off",
+      // Additional clean rules
       "import/first": "warn",
       "import/no-duplicates": "warn",
     },
